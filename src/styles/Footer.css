@@ -1,0 +1,142 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    color: aqua;
+}
+
+
+.footer-title:after,
+.footer-title:before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: aqua;
+    margin: 10px auto;
+}
+
+.footer-title:after {
+    margin-bottom: 20px;
+}
+
+.footer-title:before {
+    margin-top: 20px;
+}
+
+.footer-text,
+.footer-section ul,
+.footer-section p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-section ul li a:hover {
+    color: aqua;
+}
+
+.footer .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer .contact div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.footer .contact div svg {
+    font-size: 1.5rem;
+    color: aqua;
+}
+
+.footer .contact div a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer .contact div a:hover {
+    color: aqua;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.footer-section p i {
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin: 20px 0;
+    }
+
+    .footer-bottom p {
+        font-size: 0.8rem;
+    }
+}

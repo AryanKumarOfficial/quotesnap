@@ -1,0 +1,96 @@
+section.parent {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1800px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    min-height: calc(100vh - 125px);
+}
+
+section.parent .quote-card {
+    padding: 15px;
+    gap: 1.5rem;
+}
+
+section.parent .quote-card h2 {
+    font-size: 1.3rem;
+}
+
+section.parent .no-quotes {
+    display: grid;
+    grid-column: 1 / -1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    place-self: center;
+}
+
+section.parent .no-quotes p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+
+section.parent .quote-button {
+    grid-column: 1 / -1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    place-self: center;
+
+}
+
+section.parent .delall {
+    grid-column: 1 / -1;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    place-self: center;
+    background-color: #dc3545;
+    border: none;
+    padding: 14px;
+    margin: 20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    position: relative;
+    bottom: -8rem;
+}
+
+section.parent .delall:hover {
+    background-color: #ff0000;
+}
+
+
+@media (max-width: 1200px) {
+    section.parent {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    section.parent {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        width: 94%;
+    }
+
+    section.parent .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+    }
+
+    section.parent .no-quotes {
+        font-size: 1.2rem;
+    }
+}
