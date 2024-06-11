@@ -27,7 +27,6 @@ const Quotes = () => {
           <p>There are no quotes to display. Please add some quotes.</p>
         </div>
       }
-      {/* delete all button */}
       {quotes.length > 0 && <button onClick={() => {
         localStorage.removeItem('quotes')
         window.location.reload()

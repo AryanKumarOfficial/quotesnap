@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import '../styles/Custom404.css';
+import { Link } from 'react-router-dom';
 
-const NotFound = () => {
+const Custom404 = () => {
     return (
-        <div>NotFound</div>
-    )
-}
+        <div className="not-found-container">
+            <h1 className="not-found-title">404</h1>
+            <p className="not-found-message">Oops! The page you're looking for doesn't exist.</p>
+            <Link to="/" className="not-found-link">Go back to Home</Link>
+        </div>
+    );
+};
 
-export default NotFound
+export default Custom404;

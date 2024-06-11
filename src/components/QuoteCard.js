@@ -28,7 +28,6 @@ const QuoteCard = ({ quote, fetchQuote }) => {
                 <h2 className='quote-text'>
                     {quote}
                 </h2>
-                {/* add button to save and next quote */}
                 {fetchQuote && <div className="action">
                     <button onClick={handleSave} className='quote-button'>Save</button>
                     <button onClick={fetchQuote} className='quote-button'>Next</button>

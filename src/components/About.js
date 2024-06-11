@@ -29,7 +29,6 @@ const About = () => {
             <p>
                 We'd love to hear from you! If you have any questions, suggestions, or feedback, please feel free to reach out to us at <a href="mailto:aryanak9163@gmail.com">aryanak9163@gmail.com</a>.
             </p>
-            {/* provide the linkedIn and github links to the site */}
             <h2>Follow Us</h2>
             <p>
                 Stay connected with us on social media for the latest updates and news:
