@@ -132,6 +132,5 @@ Follow me on Social Media:
 
 - Website: [Aryan Kumar](https://developeraaryan.github.io/)
 
-```
 
-```
+## Thank you for using QuoteSnap! 🌟
