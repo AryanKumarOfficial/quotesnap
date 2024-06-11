@@ -12,6 +12,7 @@ const Quotes = () => {
     if (quotes) {
       setQuotes(quotes)
     }
+    document.title = 'Quotes - QuoteSnap'
   }, [])
   return (
     <section className='parent'>

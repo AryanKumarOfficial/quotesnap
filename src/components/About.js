@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../styles/About.css';
 
 const About = () => {
+    useEffect(() => {
+        document.title = 'About - QouteSnap';
+    }, []);
     return (
         <div className="about-container">
             <h1>About QouteSnap</h1>

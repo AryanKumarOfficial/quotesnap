@@ -11,6 +11,7 @@ const Home = () => {
     setQuote(response?.data[0])
   }
   useEffect(() => {
+    document.title = 'Home - QuoteSnap'
     fetchQuote()
   }, [])
   return (
