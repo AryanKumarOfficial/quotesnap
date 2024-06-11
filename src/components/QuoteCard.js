@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/QuoteCard.css'
 const QuoteCard = ({ quote, fetchQuote }) => {
     const handleSave = (e) => {
-        let quotes = new Array();
+        let quotes = [];
         if (localStorage.getItem('quotes')) {
             let localQuotes = JSON.parse(localStorage.getItem('quotes'));
             localQuotes.push(quote);

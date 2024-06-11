@@ -13,7 +13,7 @@ const About = () => {
             </p>
             <h2>How It Works</h2>
             <p>
-                QouteSnap leverages modern web technologies to deliver a seamless user experience. Our app is built using <a href='https://react.dev' target='_blank'><strong>React</strong></a> for a dynamic and responsive interface. We fetch quotes from a  <a href="https://ron-swanson-quotes.herokuapp.com/v2/quotes">public API</a> to ensure a diverse range of inspirational content.
+                QouteSnap leverages modern web technologies to deliver a seamless user experience. Our app is built using <a href='https://react.dev' target='_blank' rel='noreferrer'><strong>React</strong></a> for a dynamic and responsive interface. We fetch quotes from a  <a href="https://ron-swanson-quotes.herokuapp.com/v2/quotes" target='_blank' rel='noreferrer'>public API</a> to ensure a diverse range of inspirational content.
             </p>
             <h2>Features</h2>
             <ul>
@@ -32,8 +32,8 @@ const About = () => {
                 Stay connected with us on social media for the latest updates and news:
             </p>
             <ul>
-                <li><a href="https://www.linkedin.com/in/aryanji/" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/developeraaryan" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/aryanji/" target="_blank" rel='noreferrer'>LinkedIn</a></li>
+                <li><a href="https://github.com/developeraaryan" target="_blank" rel='noreferrer'>GitHub</a></li>
             </ul>
             <h2>Thank You</h2>
             <p>
